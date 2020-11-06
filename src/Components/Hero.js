@@ -1,12 +1,12 @@
 import React from "react";
+import Form from "./Form";
 
 // export default function Hero({ children, hero }) {
 //   return <header className={hero}>{children}</header>;
 // }
 
 export default function Hero(props) {
-  console.log(props);
-  return <div className={props.hero}>this</div>;
+  return <div className={props.hero}><Form type={props.form} /> </div>;
 }
 
 Hero.defaultProps = {
