@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import Hero from "./Hero";
 
@@ -23,7 +23,6 @@ function Home() {
             <li>Hotels</li>
           </Link>
         </ul>
-        <Footer />
       </div>
     </>
   );
