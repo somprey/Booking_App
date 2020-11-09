@@ -10,10 +10,14 @@ function Navbar() {
       <h3>logo</h3>
       <ul className="nav-links">
         <Link style={navStyle} to="/Signup">
-          <li>Signup</li>
+          <li type="button" className="btn btn-primary">
+            Signup
+          </li>
         </Link>
         <Link style={navStyle} to="/Login">
-          <li>Login</li>
+          <li type="button" className="btn btn-primary">
+            Login
+          </li>
         </Link>
       </ul>
     </nav>
