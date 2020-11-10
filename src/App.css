@@ -17,13 +17,14 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  padding-right: 50;
 }
 
 .homelinks {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  background-color: red;
+  background-color: yellow;
 }
 
 .defaultHero,

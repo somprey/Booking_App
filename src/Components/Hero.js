@@ -6,7 +6,11 @@ import Form from "./Form";
 // }
 
 export default function Hero(props) {
-  return <div className={props.hero}><Form type={props.form} /> </div>;
+  return (
+    <div className={props.hero}>
+      <Form type={props.form} />{" "}
+    </div>
+  );
 }
 
 Hero.defaultProps = {
