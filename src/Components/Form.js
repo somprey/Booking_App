@@ -4,7 +4,6 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 const Form = (props) => {
-  console.log(props);
   const type = props.type;
 
   const [selectedDate, setSelectedDate] = useState(null);
